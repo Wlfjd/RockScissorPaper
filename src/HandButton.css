@@ -1,0 +1,27 @@
+.HandButtons {
+ width: 166px;
+  height: 166px;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url('./assets/purple.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.HandButtons .HandButton-icon {
+  opacity: 0.45;
+  margin:3333;
+  
+}
+
+.HandButtons:hover {
+  background-image: url('./assets/yellow.svg');
+}
+
+.HandButtons:hover .HandButton-icon {
+  opacity: 0.87;
+}
